@@ -1,0 +1,33 @@
+.nav-link {
+    font-family: var(--font-use-two);
+    color: var(--color-black);
+}
+.nav-link {
+    font-family: var(--font-use-two);
+    color: var(--color-black);
+    margin-right: 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  .nav-link:hover {
+    color: #4169E1;
+  }
+
+  @media (max-width: 991.98px) {
+    .navbar-collapse {
+      justify-content: flex-start;
+    }
+    
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    .nav-link {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .button-main {
+      width: 100%;
+      text-align: center;
+    }
+  }

@@ -1,0 +1,43 @@
+
+.last-step-container{
+  widows: 50px;
+    height: 50px;
+    border: 1px solid 1px; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.minicard{
+    width: 10px;
+    height: 50px;
+    margin: 10px;
+}
+
+.blurCircle{
+  position: absolute;
+  left: 10px; /* Adjust position from left */
+  top: 100%; /* Position in the middle vertically */
+  width: 250px;
+  height: 250px;
+  border-radius: 50%; /* Make it a circle */
+  background-color: rgba(138, 43, 226, 0.7); /* Purple color with opacity */
+  filter: blur(50px); /* Blur effect */
+  animation: wave 4s ease-in-out infinite alternate;
+}
+@keyframes wave {
+  0% {
+    transform: translateY(-50%) translateX(-50px); /* Initial position */
+  }
+  100% {
+    transform: translateY(-50%) translateX(50px); /* End position */
+  }
+}
+.error-message{
+  font-family: var(--font-use-two);
+  color: crimson;
+}
+
+.rowBtns{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

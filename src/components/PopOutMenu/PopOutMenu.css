@@ -1,0 +1,53 @@
+.popout-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.popout-menu-content {
+  background: white; 
+  padding: 20px;
+  border-radius: 30px;
+  width: 30%;
+  height: 320px;
+  text-align: center;
+  border: 3px solid black;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: brown;
+}
+.miomio-haha{
+  font-family: 'Outfit', sans-serif;
+  font-size: 3.5em;
+  margin-bottom: 15px;
+}
+.nav-link{
+  font-family: 'Outfit', sans-serif;
+}
+.Creates{
+  background-color: white;
+  width: 70%;
+  border-radius: 20px;
+  color: black;
+  height: 45px;
+}
+.noBULLETS{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}

@@ -1,0 +1,11 @@
+.MessageUserName {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .messageUserNameHeading {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+  }
+  

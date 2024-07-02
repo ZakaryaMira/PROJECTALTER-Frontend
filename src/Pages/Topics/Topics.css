@@ -1,0 +1,108 @@
+.TopicsContainer {
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.wrap-class {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.minicard-small {
+    margin-left: 15px;
+}
+
+.heading-Topics {
+    font-family: var(--font-use-two);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.next-step {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.heading-Topics {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.btn-topics {
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+/* Slider Styles */
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 200%; /* Ensures the container covers both slides */
+}
+
+.slide-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.slide-button.left {
+    left: 10px;
+}
+
+.slide-button.right {
+    right: 10px;
+}
+
+.minicard-small {
+    width: 250px;
+    height: 250px;
+}
+
+.minicard-medium {
+    width: 300px;
+    height: 300px;
+}
+
+.minicard-large {
+    width: 40px;
+    height: 450px;
+}
+
+.service-info-heading {
+    font-size: 1.5rem;
+}
+
+.services-box-two-one {
+    border: 2px solid #d7d7da;
+    background-color: #efeff0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    margin-bottom: calc(var(--distance-primary) * 2);
+}
+
+.services-images {
+    height: 150px;
+    width: auto;
+}

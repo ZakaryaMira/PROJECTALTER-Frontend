@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'jeko-black';
+    src: url('../../Fonts/Jeko-Black.ttf') format('truetype'); 
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #e6e6f2 0%, rgba(255,255,255,1) 100%);
+    opacity: 80%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.centreTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #e0e0f8 0%, rgba(200, 200, 255, 0.5), rgba(255,255,255,1) 100%);
+    opacity: 80%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.centreTwo::before, .centreTwo::after {
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background: #c2e0ff;
+    filter: blur(100px);
+    z-index: -1;
+}
+
+.centre::before, .centre::after {
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background: #4169E1;
+    filter: blur(100px);
+    z-index: -1;
+}
+
+.centre::before {
+    top: -150px;
+    left: -150px;
+    animation: float 6s ease-in-out infinite;
+}
+
+.centre::after {
+    bottom: -150px;
+    right: -150px;
+    animation: float 6s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.form-container {
+    width: 90%;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    min-height: 25rem;
+}
+
+.form-heading {
+    font-family: 'jeko-black', sans-serif; 
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.form-row {
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 10px; 
+    width: 100%; /* Ensures input takes the full width */
+}
+
+.input-border {
+    border: none;
+    box-shadow: 0 0 0 0 white, 0 1px 0 0 black;
+    padding: 5px;
+    width: 100%; /* Ensures input takes the full width */
+}
+
+.last-input {
+    margin-bottom: 25px;
+}
+
+.btn-form, .btn-form-two {
+    text-align: center;
+    width: 100%; /* Makes button full width on smaller screens */
+    max-width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn-form-two {
+    max-width: 110px;
+}
+
+.two-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; /* Makes container full width on smaller screens */
+    max-width: 250px;
+    height: 100px;
+}
+
+.check-in {
+    display: flex;
+    justify-content: space-around;
+}
+
+.last-link {
+    margin-bottom: 25px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .form-container {
+        width: 100%;
+        padding: 15px;
+        margin-top: 20px;
+    }
+
+    .form-heading {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .input-border {
+        padding: 10px;
+    }
+
+    .btn-form, .btn-form-two {
+        max-width: 100%;
+    }
+
+    .two-btn {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .two-btn button {
+        margin-bottom: 10px;
+    }
+}

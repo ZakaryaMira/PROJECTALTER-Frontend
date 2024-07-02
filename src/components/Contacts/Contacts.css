@@ -1,0 +1,24 @@
+.contact {
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+  }
+  
+  .contactName {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem;
+  }
+  .contact {
+    padding: 10px;
+  
+  }
+  
+  .contact.selected {
+    background-color: #e0e0e0; /* Change to your desired color */
+  }

@@ -1,0 +1,94 @@
+.userGallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.gallerySections{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
+}
+.gallerySectionsheadig{
+    font-family: var(--font-use-two);
+
+}
+
+.gallerySectionsBtns{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px black solid;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.galleryListinings{
+    width: 100%;
+}
+.feedbacksInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gallerySectionsheadig{
+    font-family: monospace;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.galleryListinings{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.feedbackItem {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 20rem;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Outfit', sans-serif;
+    padding: 10px;
+  }
+  .senderInfo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .feedbackItem p {
+    margin: 0;
+  }
+.senderInformation{
+    width: 600px;
+    height: 600px;
+}
+.senderPhotoTwo{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px black solid;
+}
+.DetailsUsername{
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+.Detailsfnl{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem ;
+
+}

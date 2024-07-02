@@ -1,0 +1,22 @@
+.minicard-small{
+    width: 250px;
+    height: 250px;
+}
+
+.minicard-medium{
+    width: 300px;
+    height: 300px;
+}
+
+.minicard-large{
+    width: 40px;
+    height: 450px;
+}
+.services-box-two-one.selected {
+    background-color: #028391;
+    color: white;
+  }
+.services-images{
+    height: 150px;
+    width: auto;
+}

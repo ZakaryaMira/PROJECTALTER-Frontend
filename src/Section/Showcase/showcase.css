@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'jeko-black';
+  src: url('../../Fonts/Jeko-Black.ttf') format('truetype');
+}
+.section-Two {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center; /* Center align text for smaller screens */
+}
+
+.showcase-heading-one {
+  font-family: 'jeko-black';
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.img-section-two {
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
+  margin: 20px 0;
+}
+
+/* Responsive styles */
+@media (max-width: 991.98px) {
+  .img-section-two {
+      max-width: 25rem;
+  }
+
+  .box-info {
+      font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .section-Two {
+      padding: 20px;
+  }
+
+  .img-section-two {
+      max-width: 20rem;
+  }
+
+  .info-box {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+  }
+
+  .box-info {
+      font-size: 1rem;
+  }
+
+  .showcase-heading-one {
+      font-size: 1.2rem;
+  }
+}

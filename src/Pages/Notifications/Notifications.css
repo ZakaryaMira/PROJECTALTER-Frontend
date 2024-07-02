@@ -1,0 +1,23 @@
+.NotificationBox{
+    border: 1px solid black;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    border-radius: 20px;
+    
+}
+.notificationHeading{
+  font-family: 'Outfit', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    border-radius: 30px;
+    text-align: center;
+    -webkit-text-stroke-color: black; 
+    -webkit-text-stroke-width: 1px; 
+}
+@media (max-width: 768px) {
+    .NotificationBox {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  }

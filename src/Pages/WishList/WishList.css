@@ -1,0 +1,12 @@
+.wishlistinfo{
+    font-size: 1rem;
+    color: black;
+    font-family: 'Outfit', sans-serif;
+}
+.btn-additem{
+    background-color: white;
+    height: 35px;
+    border: 2px solid black;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+}

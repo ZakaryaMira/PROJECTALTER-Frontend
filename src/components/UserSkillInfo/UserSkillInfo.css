@@ -1,0 +1,57 @@
+.userSkill {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.font-outline{
+    -webkit-text-stroke-color: black; 
+    -webkit-text-stroke-width: 0.5px; 
+    font-family: monospace;
+}
+
+.userImageSkill {
+    width: 158px;
+    height: 158px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.userInfo {
+    width: 70%;
+    margin-top: 100px;
+}
+
+.userDescription{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.profileImageTwo {
+    width: 100%; /* Adjust width for responsiveness */
+    max-width: 200px; /* Set maximum width */
+    object-fit: cover;
+    object-position: center;
+    height: 100%; /* Maintain aspect ratio */
+    border-radius: 50%;
+    border: 2px black solid;
+}
+
+
+
+/* Media Queries for responsiveness */
+@media only screen and (min-width: 768px) {
+    .userImage {
+        width: 30%; /* Adjust width for larger screens */
+    }
+    
+    .userInfo {
+        width: 35%; /* Adjust width for larger screens */
+    }
+}

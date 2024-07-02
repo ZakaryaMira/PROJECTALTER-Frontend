@@ -1,0 +1,13 @@
+.LinksYo{
+    width: 90%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.Link{
+    font-family: var(--font-use-two);
+    font-size: 1.6rem;
+}

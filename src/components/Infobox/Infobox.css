@@ -1,0 +1,19 @@
+.info-box {
+    background-color: #282E3F;
+    width: 100%;
+    max-width: 15rem;
+    height: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.box-info {
+    color: var(--color-white);
+    font-family: var(--font-use-two);
+    font-size: 1.5rem;
+    text-align: center;
+  }

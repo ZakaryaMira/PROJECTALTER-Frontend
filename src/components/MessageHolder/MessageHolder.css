@@ -1,0 +1,15 @@
+.messageHolder {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .MessageHeading {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+  }
+  .SelectAChatToStart{
+    font-family: 'Outfit', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+  }  

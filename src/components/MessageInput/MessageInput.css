@@ -1,0 +1,29 @@
+.messageInput {
+    display: flex;
+    border-top: 1px solid black;
+    padding: 10px;
+  }
+  
+  .inputField {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .sendButton {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .sendButton:hover {
+    background-color: #0056b3;
+  }
+  

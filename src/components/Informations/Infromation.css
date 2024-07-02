@@ -1,0 +1,38 @@
+.informations{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 30%;
+    border-top: 1px solid white;
+    border-right: 1px solid black;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.info-button {
+    padding: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 90%;
+
+}
+.info-button.active {
+    background-color: #282E3F;
+    color: #fff;
+  }
+  
+  .info-button:hover {
+    background-color: #282E3F;
+    color: #fff;
+  }
+
+.exchangeBtn{
+    background-color: #4169E1;
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    text-align: center;
+}

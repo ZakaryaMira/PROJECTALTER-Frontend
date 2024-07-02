@@ -1,0 +1,16 @@
+.offersBox {
+    display: flex;
+    width: 50%;
+    border: 3px solid black;
+    min-height: 35rem;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .offersBox {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

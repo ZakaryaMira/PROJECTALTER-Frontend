@@ -1,0 +1,27 @@
+.offerUserName {
+    min-height: 2rem;
+    width: 35%;
+
+  }
+  .headingOffer{
+    width: 100%;
+    height: 5rem;
+    border-top: white solid;
+    border-right: white;
+    border-bottom: black 2px solid;
+    border-left: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .offerUserNameHeading {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.8rem;
+  }
+  @media (max-width: 768px) {
+    .offerUserName {
+      width: 100%;
+      margin-left: 1px;
+    }
+  }

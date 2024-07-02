@@ -1,0 +1,67 @@
+/* SearchBar.css */
+.searchBar {
+    border: 1px solid black;
+    border-top: 1px solid white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .searchBarForm {
+    width: 100%;
+  }
+  .searchBarInput {
+    border-radius: 10px;
+    width: 60%;
+    height: 3rem;
+    padding: 0.5rem;
+    margin-right: 10px;
+  }
+  
+  .button {
+    height: 3rem;
+    border-radius: 10px;
+    background-color: white;
+    width: 8rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Adding transition for smooth effect */
+    margin-left: 10px;
+  }
+  .Serach{
+    margin-right: 120px;
+  }
+
+  .button.active {
+    background-color: black;
+    color: white;
+  }
+  .exchangeOffer{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button:hover {
+    background-color: #282E3F;
+    color: white; /* Changing background color on hover */
+  }
+
+  .btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+  }
+ 
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 600px) {
+    .searchBar {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .btns {
+      margin-top: 10px;
+    }
+  }
+  

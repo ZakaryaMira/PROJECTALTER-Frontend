@@ -1,0 +1,41 @@
+.formSkill{
+    margin-top: 50px;
+}
+.DessisionKamelOrNo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.newLink{
+    border: none; 
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 70px;
+    padding: 10px;
+}
+.yoyo{
+    width: 100%;
+}
+.btnDelete{
+    width: 45%;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.dez{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttonLanguges{
+    border: 2px solid black;
+    background-color: white;
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}

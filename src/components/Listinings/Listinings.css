@@ -1,0 +1,72 @@
+.card{
+    border-radius: 20px;
+    height: 20rem;
+    margin-left: 25px;
+    width: 20%;
+    margin-bottom: 25px;
+}
+.card.exchange{
+    border: 2px solid #d7d7da;
+    background-color: #efeff0;
+}
+.card.offers{
+    background-color: #F5F7F8;
+}
+.card:nth-child(even){
+    margin-top: 100px;
+}
+.cados{
+    color: black;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.card-title{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 25px; 
+}
+.card-level{
+    font-family: 'Outfit', sans-serif;
+    color: #393E46;
+}
+.skill-description{
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+}
+.card-link{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    border: 2px solid #d7d7da;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.card-link:hover{
+    background-color: var(--color-black);
+    border-color: var(--color-white);
+    color:var(--color-white) ;
+}
+.card-link:active{
+    background-color: var(--color-white);
+    border: 2px solid var(--color-black);
+    color: #ccc;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%; /* Set to full width on smaller screens */
+    }
+}
+

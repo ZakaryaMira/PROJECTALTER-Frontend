@@ -1,0 +1,42 @@
+.offererUserNameHeading {
+  width: 100%;
+  height: 3rem;
+  border: 5px solid black;
+  font-size: 15rem;
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offerItem{
+  width: 100%;
+  background-color: white;
+  height: 50px;
+  border: 2px black solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.offerersName{
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.offerItem {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.offerItem.selected {
+  background-color: #e0e0e0;
+}
+
+.offerersName {
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+}
+.offerers{
+  width: 100%;
+  text-align: center;
+}

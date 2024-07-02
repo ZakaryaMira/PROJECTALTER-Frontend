@@ -1,0 +1,42 @@
+.Details{
+    width: 70%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.userCertificate{
+    width: 97%;
+    height: 350px;
+    border: 1px black solid;
+}
+.headerSkills{
+    font-family: 'Outfit', sans-serif;
+}
+.widthos{
+    width: 40%;
+    border: 2px black solid;
+    border-radius: 20px;
+    background: white;
+    color: black;
+    height: 50px;
+    transition: background-color 0.2s ease-in-out;
+}
+.widthos:hover {
+    background-color: black;
+    color: white;
+}
+.form-group{
+    width: 100%;
+}
+.offerInput{
+    height: 3rem;
+}
+.form-control{
+    width: 25rem;
+    margin-bottom: 20px;
+}
+.labelOffer{
+    margin-bottom: 10px;
+}

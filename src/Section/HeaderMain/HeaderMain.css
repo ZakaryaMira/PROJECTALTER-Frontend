@@ -1,0 +1,22 @@
+.nav-link{
+    margin-left: 30px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+  .dropdown-toggle {
+    cursor: pointer; 
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-link {
+      margin: 10px 0;
+    }
+  }

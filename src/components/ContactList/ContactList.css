@@ -1,0 +1,21 @@
+.contactList {
+    border: 1px solid black;
+    width: 35%;
+    min-height: 33rem;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    overflow-y: auto;
+  }
+  
+  .MessageHeading {
+    margin-bottom: 25px;
+    margin-top: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .contactList {
+      width: 100%;
+      min-height: auto;
+    }
+  }
+  

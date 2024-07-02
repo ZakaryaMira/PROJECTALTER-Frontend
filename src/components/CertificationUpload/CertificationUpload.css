@@ -1,0 +1,29 @@
+.certificationUpload{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+.popupContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.UploadCertification{
+    font-size: 1.8rem;
+    font-weight: 650;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.uploadCer{
+    margin-bottom: 100px;
+}
+.sendCertificate{
+    
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 50%;
+}

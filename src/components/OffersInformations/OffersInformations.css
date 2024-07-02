@@ -1,0 +1,102 @@
+.offerHolder {
+  flex-grow: 1;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 70%;
+  border-top: white;
+}
+
+.offerersUsername {
+  width: 100%;
+  height: 3rem;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offererUsername {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+}
+
+.offerrerDetails {
+  width: 95%;
+  border: 4px solid black;
+  height: auto;
+  border-radius: 10px;
+  margin: 15px;
+  margin-top: 45px;
+}
+
+.offerDetailsHeading {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.6rem;
+  margin: 20px;
+}
+
+.offerDetailesText {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  margin: 20px;
+}
+
+.deadline {
+  width: 95%;
+  border: 3px solid black;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.deadlineText {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.5rem;
+}
+
+.buttonsOffer {
+  width: 95%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.buttonOfferAccept,
+.buttonOfferReject {
+  border: 3px solid black;
+  width: 40%;
+  font-size: 1.2rem;
+  font-family: 'Outfit', sans-serif;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btnoffer {
+  background-color: white;
+  height: 2.5rem;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .offerHolder {
+    width: 90%;
+  }
+
+  .offerersUsername,
+  .offerrerDetails,
+  .deadline,
+  .buttonsOffer {
+    width: 100%;
+  }
+
+  .buttonOfferAccept,
+  .buttonOfferReject {
+    width: 45%;
+  }
+}

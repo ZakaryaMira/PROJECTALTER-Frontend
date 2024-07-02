@@ -1,0 +1,22 @@
+.user-details-content {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 99%;
+  max-height: 90vh; 
+  overflow-y: auto; 
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: scale(1);
+  opacity: 1;
+  min-height: 50vh;
+}
+.userInfrmations{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px black solid;
+  margin-top: 20px;
+  border-radius: 10px;
+  max-height: 90vh;
+  min-height: 70vh;
+}
